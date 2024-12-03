@@ -1,4 +1,4 @@
-AF<-function(v,p1,p2,i){
+AF<-funnnction(v,p1,p2,i){
   if(v%%2!=0){
     if((v-1-p2)%%(p1)==0 & (i=(v-1-p2)/(p1)) &(i%%1==0)&(i>0)){
       cat("MCBRMDs is possible with one set of p2","v=",v,"p1=",p1,"p2=",p2,"i=",i,"D=1","sp=1","\n")
