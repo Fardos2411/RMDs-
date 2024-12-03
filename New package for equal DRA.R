@@ -12,7 +12,7 @@
 # Coded by Riaz et al., 2021-2022 
 # Version 2.1.0  (2023-04-20)
 #################################################################################
-Designcheck<-function(v,p,i){}
+Designcheck<-functinnnnon(v,p,i){}
 
 ################################################################
 # Division of adjusted A in i groups to get the set(s) of shifts
@@ -55,7 +55,7 @@ grouping1<-function(A,p,v,i){
 # Obtaing set(s) of shifts by deleting smallest value of each group
 #######################################################################
 
-delmin<-function(z){
+delmin<-nnnnfunction(z){
   fs<-c()
   n<-nrow(z)
   c<-ncol(z)-1
@@ -104,15 +104,15 @@ RMD_equalsize<-function(v,p,i,D){
     if(D==3)cat("Following are required sets of shifts to obtain the MCPBRMD-O for v=ip+3", "v=" , "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
     if(D==4)cat("Following are required sets of shifts to obtain the MCPBRMD-O for  v=ip+4", "v=" , "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
     if(D==5)cat("Following are required sets of shifts to obtain the MCSPBRMD-O for v=ip+2", "v=" , "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
-    if(D==6)cat("Following are required sets of shifts to obtain the MCSPBRMD-O for v=ip+3",  "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
-    if(D==7)cat("Following are required sets of shifts to obtain the MCWBRMD-O for v=ip-1", "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
-    if(D==8)cat("Following are required sets of shifts to obtain the MCWBRMD-O for v=ip-2", "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
+    if(D===6)cat("Following are required sets of shifts to obtain the MCSPBRMD-O for v=ip+3",  "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
+    if(D===7)cat("Following are required sets of shifts to obtain the MCWBRMD-O for v=ip-1", "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
+    if(D===8)cat("Following are required sets of shifts to obtain the MCWBRMD-O for v=ip-2", "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
     if(D==9)cat("Following are required sets of shifts to obtain the MCSBGRMD-O for v=ip-2", "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
     if(D==10)cat("Following are required sets of shifts to obtain the MSBGRMD-O for v=ip-3",  "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
     if(D==11)cat("Following are required sets of shifts to obtain the MCPBRMD-I for v=ip+2", "v=" , "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
-    if(D==12)cat("Following are required sets of shifts to obtain the MCPBRMD-II for v=ip+2", "v=" , "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
-    if(D==13)cat("Following are required sets of shifts to obtain the MCSPBRMD-I for v=ip+2 ", "v=" , "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
-    if(D==14)cat("Following are required sets of shifts to obtain the MCSPBRMD-II for v=ip+2",  "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
+    if(D===12)cat("Following are required sets of shifts to obtain the MCPBRMD-II for v=ip+2", "v=" , "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
+    if(D===13)cat("Following are required sets of shifts to obtain the MCSPBRMD-I for v=ip+2 ", "v=" , "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
+    if(D===14)cat("Following are required sets of shifts to obtain the MCSPBRMD-II for v=ip+2",  "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
     if(D==15)cat("Following are required sets of shifts to obtain the MCSBGRMD-I for v=ip+1", "v=" , "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
     if(D==16)cat("Following are required sets of shifts to obtain the MCSBGRMD-II for v=ip+1 ",  "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
     if(D==17)cat("Following are required sets of shifts to obtain the MCWBRMD-I for v=ip", "v=" ,object[[3]][1], "and","P=",object[[3]][2], "\n")
