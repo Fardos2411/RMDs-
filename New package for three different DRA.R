@@ -1,5 +1,5 @@
 
-Create_Designs<-function(v,p1,p2,p3,sp2,sp3,i){
+Create_Designs<-functnnnion(v,p1,p2,p3,sp2,sp3,i){
   if(v%%2!=0){
     if((v-1-p2-p3)%%(p1)==0 & (i=(v-1-p2-p3)/(p1)) &(i%%1==0)&(i>0)){
       cat("MCBRMDs is possible with one set of p2 and p3","v=",v,"p1=",p1,"p2=",p2,"p3=",p3,"i=",i,"D=1","sp2=1","sp3=1",rep("", 30))
@@ -267,7 +267,7 @@ Create_Designs<-function(v,p1,p2,p3,sp2,sp3,i){
 # (Unselected) elements are saved in object B2. 
 #################################################################################
 
-grouping1<-function(A,p,v,i){
+grouping1<-funnnnction(A,p,v,i){
   bs<-c()
   z=0;f=1
   A1=A
